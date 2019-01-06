@@ -1,0 +1,72 @@
+
+/* NAVBAR  */
+
+.navbar-brand {color: #161616;font-weight: 700;font-size: 1.25rem;letter-spacing: 0.0625rem;}
+.nav-link {font-color: #161616;font-weight: 400;font-size: 1.25rem;letter-spacing: 0.0625rem;transition: none;border-bottom: 0.25rem solid transparent;}
+.nav-link.active {font-color: #64a19d!important;outline: 0;font-weight: 400;font-size: 1.25rem;letter-spacing: 0.0625rem;border-bottom: 0.25rem solid #64a19d;}
+.nav-link.active:hover {font-color: #64a19d;transform: 0.3s;}
+.navbar-toggler {font-size: 80%; padding: 0.75rem;color: #64a19d;border: 1px solid #64a19d!important;}
+
+
+/* HEADER */
+
+.masthead {position: relative;height: 100vh;padding: 0;width: 100%;min-height: 35rem;background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("../images/bg-masthead.jpg");background-position: center;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;}
+.masthead h1 {font-size: 6.5rem;line-height: 6.5rem;letter-spacing: 0.8rem;background: -webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0));-webkit-text-fill-color: transparent;-webkit-background-clip: text;}
+.masthead h2 {max-width: 30rem;font-size: 1.25rem;}
+.btn-primary {background-color: #64a19d;font-color: #fff;font-size: 0.8rem;letter-spacing: 0.15rem;border: none;width: 160px; height: 50px;line-height: 1;}
+
+/* ABOUT */
+
+.about-section {background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);padding-top: 10rem;}
+.about-section p {margin-bottom: 5rem;}
+.text-white-50 {font-size: 1.185rem;}
+
+/* PROJECT */
+
+.projects-section {padding-top: 10rem; background-color: #fff;}
+
+/* PROJECT-1 */
+
+.featured-text {border-left: solid #64a19d 0.5rem;font-size: 1rem;letter-spacing: 0.0625rem;padding: 2rem;}
+
+/* PROJECT-2 & PROJECT-3 */
+
+.bg-black {background-color: #161616;}
+.project-text {padding: 5rem;font-size: 1rem;letter-spacing: 0.0625rem;}
+.project-text hr {border-color: #64a19d;border-width: 0.25rem;width: 30%;}
+
+/* SIGNUP */
+
+.signup-section {padding: 10rem 0;margin-top: 10rem;background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("../images/bg-signup.jpg");background-position: center; background-repeat: no-repeat;background-attachment: scroll;background-size: cover;}
+.far {font-weight: 400;font-size: 2em;}
+
+/* CONTACT */
+
+.card {border-bottom: 0.25rem solid #64a19d;}
+.my-4 {border-bottom: 0.25rem solid #64a19d; width: 20%}
+.text-primary {color: #64a19d!important;}
+.text-uppercase {font-size: 1rem;letter-spacing: 0.0625rem;}
+.text-email {color: #64a19d;font-size: 0.7rem;letter-spacing: 0.0625rem;}
+.social-buttons {padding-top: 3rem;padding-bottom:3rem;}
+.contact-section .social-buttons a{text-align: center;height: 3rem;width: 3rem;border-radius: 100%;line-height: 3rem;background: #2E2E2E;color: grey;}
+.contact-section .social-buttons a:hover {color: #b1b3b0;}
+
+
+/* FOOTER */
+
+.small-text {font-size: 0.9rem;letter-spacing: 0.0625rem;padding-top: 1rem; padding-bottom: 5rem;}
+.footer {padding: 5rem 0;}
+
+
+/* ALL MEDIA QUERIES */
+@media screen and (min-width: 300px) and (max-width: 575.9px) {
+	.masthead h1{font-size:30px;line-height:30px;}
+	
+}
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
+	.masthead h1{font-size: 10.5vw;line-height: 10.5vw;}
+	
+}
+@media screen and (min-width: 300px) and (max-width: 991.9px) {
+.navbar-collapse {display: flex!important;flex-basis: auto;}
+}
