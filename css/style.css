@@ -67,6 +67,3 @@
 	.masthead h1{font-size: 10.5vw;line-height: 10.5vw;}
 	
 }
-@media screen and (min-width: 300px) and (max-width: 991.9px) {
-.navbar-collapse {display: flex!important;flex-basis: auto;}
-}
